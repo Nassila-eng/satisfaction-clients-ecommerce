@@ -1,0 +1,92 @@
+# 📊 Analyse de la Satisfaction Client – E-commerce
+
+Ce projet de data analyse a été réalisé dans le cadre de mon apprentissage de l’analyse de données avec Python. Il vise à explorer des données de ventes en ligne afin d'identifier 
+les facteurs influençant la satisfaction client et de proposer des pistes d'amélioration.
+
+---
+
+## 🧠 Objectifs du projet
+
+- Analyser les ventes par produit
+- Identifier les retards de livraison
+- Étudier la satisfaction client par produit et par catégorie
+- Visualiser l’évolution des ventes au fil du temps
+- Identifier les produits les plus retournés
+- Formuler des recommandations concrètes
+
+---
+
+## 📁 Données utilisées
+
+- Fichier Excel : `base_satisfaction_clients_avec_retours.xlsx`
+- 50 lignes simulées
+- Colonnes principales :  
+  - `Date_Commande`, `Produit`, `Quantité`, `Prix_unitaire`,  
+  - `Note_Client`, `Statut_Livraison`, `Date_Livraison`,  
+  - `Retourné`, `Commentaire_Client`, `Catégorie`
+
+---
+
+## 🛠️ Outils & technologies
+
+- Python (Jupyter Notebook)
+- Pandas
+- Matplotlib
+- Seaborn
+
+---
+
+## 🔍 Étapes de l’analyse
+
+- Nettoyage et transformation des données
+- Création de colonnes calculées : `Vente_Totale`, `Délai_Livraison`, `Chiffre_affaires_total`
+- Regroupements (`groupby`) et indicateurs statistiques
+- Analyse descriptive :
+   - Produits les plus vendus
+   - Chiffre d’affaires total
+   - Satisfaction moyenne par produit
+   - Taux de livraisons en retard et livré
+   - Répartition des retours produits
+- Visualisations :
+  - Histogramme des notes
+  - Barres horizontales des produits les mieux notés
+  - Évolution du chiffre d'affaires par semaine
+  - Camembert des statuts de livraison
+
+---
+
+## 📈 Résultats clés
+
+- 📦 Produit le plus vendu : `Ordinateur`
+- 🛑 38 % des livraisons sont en retard
+- 💬 Produits "T-shirt" et "Casque" ont la satisfaction la plus faible
+- 🔄 Le produit "Lampe", "Montre" et "Sartphone" sont les plus retourné
+- 💸 Certaines semaines présentent un pic de ventes intéressant à exploiter
+
+---
+
+## ✅ Recommandations
+Recommandations basées sur l’analyse
+
+1. 📉 *Ordinateur* ont une note moyenne de 2.8 → revoir la qualité ou le fournisseur.
+2. 🚚 38 % de livraisons en retard → optimiser la logistique ou changer de transporteur.
+3. 🔄 *Montre* *smartphone* *Montre* produitle ayant le plus de retours → revoir la description produit ou stopper la vente.
+4. 💰 *Lampe* génère peu de CA → lancer une promo ou revoir le design produit.
+5. 📣 Promouvoir les produits les plus appréciés
+
+---
+
+## 🔗 Accès aux fichiers
+
+- 📘 Notebook Jupyter : [`analyse_satisfaction_client.ipynb`](./analyse_satisfaction_client.ipynb)
+- 📄 Données Excel : [`base_satisfaction_clients_avec_retours.xlsx`](./base_satisfaction_clients_avec_retours.xlsx)
+
+---
+
+## 🙋‍♀️ À propos de moi
+
+Je m'appelle Medjadji Nassila, et je suis en reconversion vers les métiers de l’analyse de données.  
+Ce projet fait partie de mon portfolio personnel.  
+📬 Contact : medjadji-nassila@outlook.fr 
+🔗 LinkedIn : www.linkedin.com/in/nassila-medjadji
+
